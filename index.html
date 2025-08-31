@@ -533,7 +533,9 @@
     <!-- Цена -->
     <section id="price" class="pb-[120px] px-4">
         <div class="max-w-screen-xl mx-auto">
-            <h2 class="text-xl font-bold mb-14 text-center md:text-left">Способы оплаты</h2>
+            <h2 class="text-l sm:text-xl md:text-xl font-bold mb-14 text-center md:text-left ">
+                Способы оплаты
+            </h2>
             <div class="flex flex-wrap justify-center gap-4 pb-10">
                 <span class="bg-text-1 text-white text-base py-2 px-6 rounded-full text-center">Перед покупкой можно посмотреть бесплатные видеуроки</span>
                 <span class="bg-text-1 text-white text-base py-2 px-6 rounded-full text-center">Есть оплата через работодателя или свою компанию</span>
@@ -541,70 +543,62 @@
                 <span class="bg-text-1 text-white text-base py-2 px-6 rounded-full text-center">Вернём деньги в течение 30-ти дней после покупки, если не подойдёт курс</span>
                 <span class="bg-text-1 text-white text-base py-2 px-6 rounded-full text-center">Можно купить курс в подарок</span>
             </div>
-            <div class="flex flex-col md:flex-row gap-6 justify-center items-start py-10">
+            <div class="flex flex-col md:flex-row gap-6 justify-center py-10 px-4 max-w-[885px]">
                 <!-- Карточка 1 -->
-                <div class="border border-black rounded-xl p-6 w-[420px]  shadow-sm text-center">
-                    <h3 class="text-l font-bold mb-[10px]">Грокаем JavaScript</h3>
+                <div class="border border-black rounded-xl p-6 shadow-sm text-center max-w-[420px] md:w-full">
+                    <h3 class="text-lg font-bold mb-2">Грокаем JavaScript</h3>
                     <p class="text-gray-500 text-sm mb-5">
                         Sed ornare urna iaculis libero consectetur, in dignissim diam faucibus.
                     </p>
                     <p class="text-xl font-bold text-purple-600 mb-6">2 990 ₽</p>
-
+            
                     <!-- Кнопка купить -->
-                    <button
-                        class="flex items-center justify-center gap-2 w-full bg-black text-white py-4 rounded-lg  mb-3 text-base hover:bg-purple-700">
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
-                            alt="JS" class="w-5 h-5">
+                    <button class="flex items-center justify-center gap-2 w-full bg-black text-white py-4 rounded-lg mb-3 text-base hover:bg-purple-700">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JS" class="w-5 h-5">
                         Купить сейчас
                     </button>
-
+            
                     <!-- Кнопки снизу -->
-                    <button
-                        class="w-full border border-black py-4 rounded-lg mb-3 text-gray-700 font-medium text-base hover:border-7a37d2 hover:text-7a37d2">Заплатит
-                        работодатель</button>
-
-                    <button
-                        class="w-full border border-black py-4 rounded-lg mb-3 flex items-center justify-center gap-2 text-base hover:border-7a37d2 hover:text-7a37d2">
+                    <button class="w-full border border-black py-4 rounded-lg mb-3 text-gray-700 font-medium text-base hover:border-7a37d2 hover:text-7a37d2">
+                        Заплатит работодатель
+                    </button>
+            
+                    <button class="w-full border border-black py-4 rounded-lg mb-3 flex items-center justify-center gap-2 text-base hover:border-7a37d2 hover:text-7a37d2">
                         <img src="./public/images/icon/dolyame.svg" alt="Долями" class="h-4">
                         4 платежа по 750 ₽
                     </button>
-
-                    <button
-                        class="w-full border border-black py-4 rounded-lg flex items-center justify-center gap-2 text-base hover:border-7a37d2 hover:text-7a37d2">
+            
+                    <button class="w-full border border-black py-4 rounded-lg flex items-center justify-center gap-2 text-base hover:border-7a37d2 hover:text-7a37d2">
                         <span class="text-green-500 text-xl"><img src="./public/images/icon/split.svg" alt=""></span>
                         750 ₽ × 4 платежа в Сплит
                     </button>
                 </div>
-
+            
                 <!-- Карточка 2 -->
-                <div class="border border-black rounded-xl p-6 w-[420px] shadow-sm text-center">
-                    <h3 class="text-l font-bold mb-[10px]">Грокаем JavaScript</h3>
+                <div class="border border-black rounded-xl p-6 shadow-sm text-center max-w-[420px] sm:w-full">
+                    <h3 class="text-lg font-bold mb-2">Грокаем JavaScript</h3>
                     <p class="text-gray-500 text-sm mb-5">
                         Sed ornare urna iaculis libero consectetur, in dignissim diam faucibus.
                     </p>
                     <p class="text-xl font-bold text-purple-600 mb-6">4 990 ₽</p>
-
+            
                     <!-- Кнопка React -->
-                    <button
-                        class="flex items-center justify-center gap-2 w-full bg-black text-white py-4 rounded-lg  mb-3 text-base hover:bg-purple-700">
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
-                            alt="React" class="w-5 h-5">
+                    <button class="flex items-center justify-center gap-2 w-full bg-black text-white py-4 rounded-lg mb-3 text-base hover:bg-purple-700">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" class="w-5 h-5">
                         Учить React
                     </button>
-
+            
                     <!-- Кнопки снизу -->
-                    <button
-                        class="w-full border border-black py-4 rounded-lg mb-3 text-gray-700 font-medium text-base hover:border-7a37d2 hover:text-7a37d2">Заплатит
-                        работодатель</button>
-
-                    <button
-                        class="w-full border border-black py-4 rounded-lg mb-3 flex items-center justify-center gap-2 text-base hover:border-7a37d2 hover:text-7a37d2">
+                    <button class="w-full border border-black py-4 rounded-lg mb-3 text-gray-700 font-medium text-base hover:border-7a37d2 hover:text-7a37d2">
+                        Заплатит работодатель
+                    </button>
+            
+                    <button class="w-full border border-black py-4 rounded-lg mb-3 flex items-center justify-center gap-2 text-base hover:border-7a37d2 hover:text-7a37d2">
                         <img src="./public/images/icon/dolyame.svg" alt="Долями" class="h-4">
                         4 платежа по 1 250 ₽
                     </button>
-
-                    <button
-                        class="w-full border border-black py-4 rounded-lg flex items-center justify-center gap-2 text-base hover:border-7a37d2 hover:text-7a37d2">
+            
+                    <button class="w-full border border-black py-4 rounded-lg flex items-center justify-center gap-2 text-base hover:border-7a37d2 hover:text-7a37d2">
                         <span class="text-green-500 text-xl"><img src="./public/images/icon/split.svg" alt=""></span>
                         1 250 ₽ × 4 платежа в Сплит
                     </button>
